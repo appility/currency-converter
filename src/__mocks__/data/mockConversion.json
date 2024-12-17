@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "code": 200,
+        "disclaimer": "Usage subject to terms: https:\/\/currencybeacon.com\/terms"
+    },
+    "response": {
+        "timestamp": 1734447233,
+        "date": "2024-12-17",
+        "from": "USD",
+        "to": "EUR",
+        "amount": 100,
+        "value": 95.164821
+    },
+    "timestamp": 1734447233,
+    "date": "2024-12-17",
+    "from": "USD",
+    "to": "EUR",
+    "amount": 100,
+    "value": 95.164821
+}
