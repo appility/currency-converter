@@ -35,8 +35,10 @@ Follow these steps to get started with the react-vite-ui template:
 
 4. Edit the .env file adding currencybeacon ASPI KEY:
 
+   ```bash
    VITE_API_BASE_URL=https://api.currencybeacon.com/v1
    VITE_API_KEY=YOUR_KEY
+   ```
 
 5. Start the development server:
 
