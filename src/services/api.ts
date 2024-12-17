@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://api.currencybeacon.com/v1";
-const API_KEY = "yOG91SA43cYeakRmkqFDwAcEAAKOas63";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 export const fetchCurrencies = async () => {
   const response = await axios.get(`${API_BASE_URL}/currencies`, {
     params: { api_key: API_KEY },
   });
-  return response.data.response; // Adjust based on API response structure.
+  return response.data.response;
 };
 
 export const fetchConvertedValue = async (from: string, to: string, amount: number) => {
@@ -19,5 +19,5 @@ export const fetchConvertedValue = async (from: string, to: string, amount: numb
       amount,
     },
   });
-  return response.data.response; // Adjust based on API response structure.
+  return response.data.response;
 };
