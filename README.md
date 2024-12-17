@@ -1,4 +1,4 @@
-# Currency convertor
+# Currency converter
 
 ![Alt text](screen.png?raw=true "Screenshot")
 
